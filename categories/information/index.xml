@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information on barry.acorps</title>
+    <link>http://localhost:1313/categories/information/</link>
+    <description>Recent content in Information on barry.acorps</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2024 19:43:33 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/information/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/blogs/2024/04/hello-world/</link>
+      <pubDate>Sun, 28 Apr 2024 19:43:33 +0800</pubDate>
+      <guid>http://localhost:1313/blogs/2024/04/hello-world/</guid>
+      <description>&lt;p&gt;Hello everyone. This is the first ever blog post of the &amp;lsquo;barry.acorps&amp;rsquo; website. It took me a while to set up, but I&amp;rsquo;m very proud of what I&amp;rsquo;ve done so far with Hugo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,269 @@
+/* Primary colors */
+:root {
+  --purple: #8d0ee2;
+  --calmerpurple: #a461fc;
+  --black: #111111;
+}
+
+
+/* Hell Font Setting Up */
+
+@font-face {
+  font-family: 'JetBrainsMono-Regular';
+  src: url('/JetBrainsMono-Regular.woff2') format('woff'), url('/JetBrainsMono-Regular.ttf'), format('truetype');
+}
+
+body {
+  background-color: var(--black);
+  color: #ffffff;
+  font-family: 'JetBrainsMono-Regular';
+  margin: 0;
+  
+  /* 
+  margin: 1rem;
+  max-width: 768px; */
+}
+
+
+.highlight code {
+  font-family: 'JetBrainsMono-Regular';
+}
+
+.highlight {
+  margin: auto;
+  max-width: 85%;
+  border: 2px solid var(--purple);
+}
+
+header {
+  box-sizing: border-box;
+  padding: 1rem;
+  position: relative;
+  width: 100%;
+  border-bottom: 4px solid var(--purple);
+
+}
+header .headerTitle {
+  font-size: 3.5em;
+  color: var(--purple);
+}
+
+
+nav {
+  position: relative;
+}
+nav ul {
+  right: 100px;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0.2rem 0;
+}
+
+nav ul li {
+  padding: 0.25rem;
+
+}
+#navigation ul li a {
+  color: white;
+}
+
+#navigation ul li a.active, #navigation a.ancestor {
+  color: var(--purple);
+}
+
+
+
+h1, h2, h3 {
+  background-color: var(--calmerpurple);
+  padding: 0rem 0.25rem ;
+  
+  display: table; /* Weird implementation but ok????? */
+}
+
+
+
+h1.contentTitle {
+  background-color: unset;
+  color: var(--purple) !important;
+  font-size: 2.5em;
+  font-weight: normal;
+  padding: unset;
+  margin: 0.5rem 0rem;
+}
+
+
+main {
+  max-width: 70%;
+  margin: auto;
+
+}
+
+a {
+  color: #6d9eeb;
+  text-decoration: underline;
+}
+
+
+h1, h2, h3, h1 a, h2 a, h3 a {
+  color:#111111 !important;
+}
+
+a:visited {
+  color: #8e7cc3;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #797979;
+}
+
+
+#taglist {
+  display: inline;
+  width: 100%;
+}
+
+#taglist a {
+  word-wrap: break-word;
+}
+
+figure img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+figure h4 {
+  text-align: center;
+}
+
+
+.listFlexBox {
+  display: flex;
+}
+
+.listGrid {
+  text-align: center;
+  display: inline-grid;
+  margin: 1rem auto;
+  grid-template-columns: auto auto auto auto;
+  box-sizing: border-box;
+  grid-gap:2px;
+  border-collapse: collapse;
+
+}
+
+.listGrid > a {
+  width: 5em;
+  height: 5em;
+  box-sizing: border-box;
+  padding: 1.75em 0;
+  box-shadow: 0 0 0 2px var(--purple);
+  font-size: 1.5em;
+  display: block;
+}
+
+.listFlexBox > div {
+  width: 33%;
+  margin: 0.5rem;
+  padding: 0.8rem;
+  border: 2px solid var(--purple);
+  min-height: 20rem;
+}
+
+.listFlexBox h1, .listFlexBox h2, .listFlexBox h3 {
+  margin: 0.25rem 0rem;
+}
+
+/* Designing the paginator */
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 1em auto;
+  padding: 0;
+}
+
+.pagination > .page-item {
+  border: 1px solid var(--purple);
+  width: 4em;
+  text-align: center;
+}
+
+.pagination > .page-item a {
+  display: block;
+  text-decoration: none;
+}
+
+.pagination > .page-item.active {
+  background-color: var(--purple);
+  
+} 
+
+.pagination > .page-item.active > .page-link {
+  color: var(--black);
+}
+
+.pagination > .page-item.disabled > .page-link {
+  color:#404d61;
+}
+
+.postSummary {
+  border-bottom: 2px solid var(--purple);
+}
+
+
+
+@media screen and (max-width: 600px) {
+  main {
+    max-width: 90%;
+  }
+
+  .highlight {
+    max-width: 100%;
+    background-color: #272822;
+    margin: auto;
+    overflow-x: auto;
+  }
+
+  header {
+    padding: 0.5rem;
+  }
+  header .headerTitle {
+    font-size: 10vw;
+    text-align: center;
+  }
+
+  
+}
+
+@media screen and (max-width: 750px) {
+
+  .listFlexBox {
+    display: block;
+    margin-left: 1rem;
+  }
+
+  .listFlexBox > div {
+    width: 100%;
+    min-height: unset;
+    border: none;
+    margin: unset;
+    padding: unset;
+
+  }
+
+  .pagination {
+    width: 30%;
+  }
+
+  .listGrid {
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto;
+  }
+}

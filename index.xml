@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on barry.acorps</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on barry.acorps</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Apr 2024 19:43:33 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/blogs/2024/04/hello-world/</link>
+      <pubDate>Sun, 28 Apr 2024 19:43:33 +0800</pubDate>
+      <guid>http://localhost:1313/blogs/2024/04/hello-world/</guid>
+      <description>&lt;p&gt;Hello everyone. This is the first ever blog post of the &amp;lsquo;barry.acorps&amp;rsquo; website. It took me a while to set up, but I&amp;rsquo;m very proud of what I&amp;rsquo;ve done so far with Hugo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Works</title>
+      <link>http://localhost:1313/works/</link>
+      <pubDate>Thu, 25 Apr 2024 17:14:45 +0800</pubDate>
+      <guid>http://localhost:1313/works/</guid>
+      <description>Welcome to my collection of works so far. Here you can see a list of what projects I&amp;rsquo;ve been working on.&#xA;Online Riddles / Puzzle Games EXEMPLAR BY BLOOD (2022-Present)&#xA;Exemplar By Blood Promotional Image Link: exemplarpuzzle.surge.sh&#xA;Exemplar By Blood is an online riddle about a mysterious case of a dead person suddenly releasing an online riddle two years after his passing. You get an email from Zaarei922734, a bubbly internet stranger who can&amp;rsquo;t solve online riddles and is asking for your help to solve her late younger brother&amp;rsquo;s mysterious online riddle.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 25 Apr 2024 17:13:28 +0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi, welcome to my About Me section. I&amp;rsquo;m trying to abridge this as much as possible so I don&amp;rsquo;t overshare, so perhaps I&amp;rsquo;ll just do sections as if I&amp;rsquo;m interviewed.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
